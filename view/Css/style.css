@@ -1,0 +1,40 @@
+body {
+    background: #333534;
+}
+
+
+.backgroundBody {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 5px black;
+
+}
+
+.shadowbox {
+    
+    width: 50em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+
+  }
+
+h1 {
+
+    text-shadow:#bbe5ff 0 -1px 0,
+#0098f8 1px 1px 0,
+#018de6 2px 2px 0,
+#006fb5 3px 3px 0,
+#005386 4px 4px 0,
+#004874 5px 5px 0,
+#333 5px 5px 10px;color:#26abff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em   
+
+}
+
