@@ -5,7 +5,7 @@ class Database
     private static string $DATABASE_ADRESS = "";
     private static string $DATABASE_NAME = "";
     private static string $DATABASE_USERNAME = "";
-    private static string $DATABASE_PASSWORD = "p";
+    private static string $DATABASE_PASSWORD = "";
 
     public static function Init(): ?PDO
     {
